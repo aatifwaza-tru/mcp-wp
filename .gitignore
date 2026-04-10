@@ -1,0 +1,49 @@
+# WordPress core
+wp-admin/
+wp-includes/
+/index.php
+/wp-*.php
+/xmlrpc.php
+/wp-config.php
+/wp-config-sample.php
+/license.txt
+/readme.html
+
+# Uploads
+wp-content/uploads/
+
+# Plugins (manage via composer or selectively track)
+# wp-content/plugins/
+
+# Themes (track your custom theme only)
+# wp-content/themes/
+
+# Cache & generated files
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/blogs.dir/
+wp-content/wp-cache-config.php
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Composer
+vendor/
+/composer.phar
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment
+.env
+.env.*
+!.env.example
